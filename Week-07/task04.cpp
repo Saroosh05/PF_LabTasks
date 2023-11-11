@@ -34,24 +34,19 @@ int frequencyChecker(int number, int digit)
         x++;
     }
  
-    int j = 1, frequency = 0;
-    int d1 = number/pow(10,(x-1));
-    
-    while(j < x){
-        float power = pow(10,(x-j));
-        int p = power;
-        int digits = number/p;
-        int l = number % p;
-        j++;
-        digits = l/pow(10,(x-j));
-        number = l;
+    float power;
+    int j = 1, frequency = 0, digits, p;
+
+    while(j <= x){
+        power = pow(10,(x-j));
+        p = power;
+        digits = number/p;
+        number = number % p;
+
         if(digits == digit){
             frequency ++;
         }
-    }
-    
-    if(d1 == digit){
-        frequency++;
+        j++;
     }
 
     return frequency;

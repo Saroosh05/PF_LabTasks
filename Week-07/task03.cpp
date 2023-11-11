@@ -28,6 +28,7 @@ int totalDigits(int number)
         digits = number/i;
         i = i*10;
         x++;
+        cout << digits << endl;
     }
     return x;
 }
