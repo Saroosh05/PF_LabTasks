@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "xstring": "cpp",
+        "string": "cpp",
+        "system_error": "cpp",
+        "xlocale": "cpp",
+        "initializer_list": "cpp",
+        "type_traits": "cpp",
+        "xutility": "cpp",
+        "*.txt": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
+}
