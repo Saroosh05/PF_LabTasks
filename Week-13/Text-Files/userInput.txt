@@ -1,0 +1,1 @@
+Integer: 0	Decimal: 5.88754e-039	Character: u

@@ -9,7 +9,12 @@
         "initializer_list": "cpp",
         "type_traits": "cpp",
         "xutility": "cpp",
-        "*.txt": "cpp"
+        "*.txt": "cpp",
+        "*.rh": "cpp",
+        "fstream": "cpp",
+        "xiosbase": "cpp",
+        "iosfwd": "cpp",
+        "ios": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }
